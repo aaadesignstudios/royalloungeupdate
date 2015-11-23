@@ -5,4 +5,4 @@ day: '22'
 image_path: ''
 ---
 
-Beautiful, clean designs tailored to your business
+Lets see what happens
