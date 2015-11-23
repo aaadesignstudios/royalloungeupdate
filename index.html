@@ -148,7 +148,7 @@ layout: default
               <div class="rock_event_tab_content_main">
               
                {% for events in site.events %}
- 
+
                 <div id="tab1" class="rock_event_tab_content">
                   <div class="row">
                     <div class="col-lg-8 col-md-12 col-sm-12"> <img class="animated fadeInLeft" src="{{ events.image_path }}" alt="" /> </div>
@@ -156,10 +156,13 @@ layout: default
                       <div class="rock_event_detail animated fadeInLeft">
                         <h1>{{ events.title }}</h1>
                         <p>{{ events.content }}</p>
-                        <h4></h4>
+                        <h4>Share  This</h4>
                         <div class="rock_social">
                           <ul>
-                            
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-pinterest"></i></a></li>
                           </ul>
                         </div>
                       </div>
