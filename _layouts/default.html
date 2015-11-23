@@ -178,60 +178,11 @@ Purchase: http://themeforest.net/user/kamleshyadav
     <section class="main">
       <div id="ri-grid2" class="ri-grid ri-grid-size-3">
         <ul>
-          <li><a href="single-page.html#"><img src="images/medium/1.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/2.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/3.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/4.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/5.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/6.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/7.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/8.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/9.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/10.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/11.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/12.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/13.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/14.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/15.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/16.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/17.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/18.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/19.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/20.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/21.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/22.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/23.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/24.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/25.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/26.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/27.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/28.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/29.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/30.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/31.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/32.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/33.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/34.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/35.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/36.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/37.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/38.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/39.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/40.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/41.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/42.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/43.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/44.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/45.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/46.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/47.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/48.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/49.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/50.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/51.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/52.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/53.jpg" alt="" /></a></li>
-          <li><a href="single-page.html#"><img src="images/medium/54.jpg" alt="" /></a></li>
+        {% for events in site.images %}
+                
+                    <li><a href="#"><img src="{{ images.image_path}}" alt="" /></a></li>
+                 {% endfor %}
+          
         </ul>
       </div>
     </section>
