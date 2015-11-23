@@ -1,5 +1,6 @@
 ---
 title: Web Design
+month: Web Design
 image_path: ""
 ---
 
