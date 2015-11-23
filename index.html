@@ -136,10 +136,10 @@ layout: default
             <div class="rock_event text-center">
               <div class="rock_event_tab">
                 <ul>
-                 {% for post in site.posts %}
+                 {% for events in site.events %}
                   <li><a href="single-page.html#tab1" class="active">
-                    <p class="rock_event_date">{{ post.day }}</p>
-                    <p class="rock_event_month">{{ post.month }}</p>
+                    <p class="rock_event_date">{{ events.day }}</p>
+                    <p class="rock_event_month">{{ events.month }}</p>
                     </a></li>
                  {% endfor %}
 
@@ -147,15 +147,15 @@ layout: default
               </div>
               <div class="rock_event_tab_content_main">
               
-               {% for post in site.posts %}
+               {% for post in site.events %}
 
                 <div id="tab1" class="rock_event_tab_content">
                   <div class="row">
                     <div class="col-lg-8 col-md-12 col-sm-12"> <img class="animated fadeInLeft" src="{{ post.imagepath }}" alt="" /> </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
                       <div class="rock_event_detail animated fadeInLeft">
-                        <h1>{{ post.title }}</h1>
-                        <p>{{ post.content }}</p>
+                        <h1>{{ events.title }}</h1>
+                        <p>{{ events.content }}</p>
                       </div>
                     </div>
                   </div>
