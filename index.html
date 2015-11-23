@@ -147,15 +147,15 @@ layout: default
               </div>
               <div class="rock_event_tab_content_main">
               
-               {% for post in site.events %}
+               {% for events in site.events %}
 
                 <div id="tab1" class="rock_event_tab_content">
                   <div class="row">
-                    <div class="col-lg-8 col-md-12 col-sm-12"> <img class="animated fadeInLeft" src="{{ post.imagepath }}" alt="" /> </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12"> <img class="animated fadeInLeft" src="{{ events.imagepath }}" alt="" /> </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
                       <div class="rock_event_detail animated fadeInLeft">
-                        <h1>{{ event.title }}</h1>
-                        <p>{{ event.content }}</p>
+                        <h1>{{ events.title }}</h1>
+                        <p>{{ events.content }}</p>
                       </div>
                     </div>
                   </div>
