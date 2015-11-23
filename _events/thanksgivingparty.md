@@ -1,8 +1,8 @@
 ---
-title: Web Design
-month: Web Design
-day: Web Design
-image_path: ""
+title: 'Thanksgiving Party!!!'
+month: Nov
+day: '22'
+image_path: ''
 ---
 
 Beautiful, clean designs tailored to your business
