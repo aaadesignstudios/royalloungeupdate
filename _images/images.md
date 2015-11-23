@@ -1,3 +1,4 @@
 ---
-image_path:
+image_path: /images/thanksgiving_bash.jpg
 ---
+
